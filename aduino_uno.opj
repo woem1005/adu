@@ -220,8 +220,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 194 1982 -20 799")
-        (Scroll "343 0")
+        (Placement "44 0 1 -1 -1 -8 -30 -57 1731 -23 796")
+        (Scroll "0 598")
         (Zoom "126")
         (Occurrence "/"))
       (Path "C:\USERS\USER\DESKTOP\WORK\ADUINO_UNO\ADUINO_UNO.DSN")
