@@ -1,0 +1,131 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : ADUINO_UNO.brd                                )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Fri Aug 02 15:33:30 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\USERS\USER\DESKTOP\ADUINO_UNO\allegro'
+Design Directory:            '.'
+Old design name:             'C:/USERS/USER/DESKTOP/ADUINO_UNO/allegro/ADUINO_UNO.brd'
+New design name:             'C:/USERS/USER/DESKTOP/ADUINO_UNO/allegro/ADUINO_UNO.brd'
+
+CmdLine: netrev.exe -y 1 -i C:\USERS\USER\DESKTOP\ADUINO_UNO\allegro C:\USERS\USER\DESKTOP\ADUINO_UNO\allegro\ADUINO_UNO.brd C:\USERS\USER\DESKTOP\ADUINO_UNO\allegro\ADUINO_UNO.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/USERS/USER/DESKTOP/ADUINO_UNO/allegro/pstchip.dat 
+   Finished reading C:/USERS/USER/DESKTOP/ADUINO_UNO/allegro/pstchip.dat (00:00:00.07)
+Starting to read C:/USERS/USER/DESKTOP/ADUINO_UNO/allegro/pstxprt.dat 
+   Finished reading C:/USERS/USER/DESKTOP/ADUINO_UNO/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/USER/DESKTOP/ADUINO_UNO/allegro/pstxnet.dat 
+   Finished reading C:/USERS/USER/DESKTOP/ADUINO_UNO/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   ERROR(SPMHNI-175): Netrev error detected.
+
+ERROR(SPMHDB-195): Error processing 'J3': Cannot modify element; the object or a parent has the FIXED property. [help].
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/Users/user/Desktop/vscode_orcad/workspace/pcb_lib/psm/ 
+           C:/Users/user/Desktop/aduino_uno/11111111111111111111111111/ 
+           C:/Users/user/Desktop/aduino_uno/asd/ 
+           C:/Users/user/Desktop/aduino_uno/asd/2N7002-7-F/ 
+           C:/Users/user/Desktop/aduino_uno/asd/ATMEGA16U2-MUR/ 
+           C:/Users/user/Desktop/aduino_uno/asd/dcpower/ 
+           C:/Users/user/Desktop/aduino_uno/asd/ATMEGA328P-PU/ 
+           C:/Users/user/Desktop/aduino_uno/asd/FOXSDLF_160-20/ 
+           C:/Users/user/Desktop/aduino_uno/asd/FUSE/ 
+           C:/Users/user/Desktop/aduino_uno/asd/LibraryLoaderSetup2v43.msi/Altium Library Loader/ 
+           C:/Users/user/Desktop/aduino_uno/asd/LibraryLoaderSetup2v43.msi/Library Loader/ 
+           C:/Users/user/Desktop/aduino_uno/asd/LP2985-50DBVTG4/ 
+           C:/Users/user/Desktop/aduino_uno/asd/NCP1117ST50T3G/ 
+           C:/Users/user/Desktop/aduino_uno/asd/PIC-ICSP/ 
+           C:/Users/user/Desktop/aduino_uno/asd/SMD-RES-VARISTOR-5V-28V_0603_/ 
+           C:/Users/user/Desktop/aduino_uno/asd/TL3301EF100QG/ 
+           C:/Users/user/Desktop/aduino_uno/asd/UJ2-AH-1-SMT/ 
+           C:/Users/user/Desktop/aduino_uno/11111111111111111111111111/ 
+
+PADPATH =  C:/Users/user/Desktop/aduino_uno/asd/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/Users/user/Desktop/vscode_orcad/workspace/pcb_lib/pad/ 
+           C:/Users/user/Desktop/aduino_uno/asd/ 
+           C:/Users/user/Desktop/aduino_uno/asd/ATMEGA328P-PU/ 
+           C:/Users/user/Desktop/aduino_uno/asd/dcpower/ 
+           C:/Users/user/Desktop/aduino_uno/asd/ATMEGA16U2-MUR/ 
+           C:/Users/user/Desktop/aduino_uno/asd/FOXSDLF_160-20/ 
+           C:/Users/user/Desktop/aduino_uno/asd/FUSE/ 
+           C:/Users/user/Desktop/aduino_uno/asd/LibraryLoaderSetup2v43.msi/Altium Library Loader/ 
+           C:/Users/user/Desktop/aduino_uno/asd/LibraryLoaderSetup2v43.msi/Library Loader/ 
+           C:/Users/user/Desktop/aduino_uno/asd/LP2985-50DBVTG4/ 
+           C:/Users/user/Desktop/aduino_uno/asd/NCP1117ST50T3G/ 
+           C:/Users/user/Desktop/aduino_uno/asd/PIC-ICSP/ 
+           C:/Users/user/Desktop/aduino_uno/asd/SMD-RES-VARISTOR-5V-28V_0603_/ 
+           C:/Users/user/Desktop/aduino_uno/asd/TL3301EF100QG/ 
+           C:/Users/user/Desktop/aduino_uno/asd/UJ2-AH-1-SMT/ 
+           C:/Users/user/Desktop/aduino_uno/11111111111111111111111111 
+
+
+------ Summary Statistics ------
+
+
+#2   Run stopped because errors were detected
+
+netrev run on Aug 2 15:33:30 2019
+   DESIGN NAME : 'ADUINO_UNO'
+   PACKAGING ON Mar  2 2016 00:37:24
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+  2 errors detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:37
+elapsed time  0:00:00
+

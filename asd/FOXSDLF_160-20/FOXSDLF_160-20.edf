@@ -1,0 +1,213 @@
+
+(EDIF
+  (rename FOXSDLF160_45_20 "FOXSDLF160-20")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2018 05 06 07 58 39)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename FOXSDLF160_45_20 "FOXSDLF160-20")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename FOXSDLF160_45_20 "FOXSDLF160-20")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Y")
+          (property (rename VALUE "Value") (string "FOXSDLF160-20"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -30000 -7000) (pt 30000 7000)))
+            (portImplementation
+              (name &2)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 26062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 30000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 30000 0)
+                    (pt 20000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &1)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -26062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -30000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -30000 0)
+                    (pt -20000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -1500 6000) (pt -1500 -6000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -1500 -6000) (pt 1500 -6000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 1500 -6000) (pt 1500 6000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 1500 6000) (pt -1500 6000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 4000 7000) (pt 4000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 4000 0) (pt 4000 -7000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -4000 7000) (pt -4000 0)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -15030 9018))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -15057 -15057))
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -4000 0) (pt -4000 -7000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -20000 0) (pt -4000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 20000 0) (pt 4000 0)))
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "XTAL_FOXSDLF160-20"))
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "Fox"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+Crystal 16MHz 20pF 2-Pin HC-49/SD
+"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "HC49/US Fox"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "FOXSDLF/160-20"))
+            )
+            (property
+              (rename Availability "Availability")
+              (string
+              (stringDisplay "Unavailable"))
+            )
+            (property
+              (rename Price "Price")
+              (string
+              (stringDisplay "None"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

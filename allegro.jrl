@@ -1,0 +1,52 @@
+\t (00:00:01) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Fri Aug 02 11:41:16 2019
+\t (00:00:01)         Host=USER-PC User=user Pid=5856 CPUs=4
+\t (00:00:01) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:03) Starting new design...
+\i (00:00:04) trapsize 3198
+\i (00:00:04) trapsize 3338
+\i (00:00:04) trapsize 4006
+\i (00:00:04) trapsize 3768
+\i (00:00:04) generaledit 
+\i (00:00:10) done 
+\i (00:00:10) place manual 
+\i (00:00:11) FORM plc_manual placement_list 
+\i (00:00:11) FORM plc_manual categories Components by refdes 
+\i (00:00:11) trapsize 3768
+\i (00:00:12) setwindow form.plc_manual
+\i (00:00:12) FORM plc_manual advanced_settings  
+\i (00:00:13) FORM plc_manual library YES 
+\i (00:00:13) FORM plc_manual library NO 
+\i (00:00:14) FORM plc_manual library YES 
+\i (00:00:14) FORM plc_manual placement_list  
+\i (00:00:17) FORM plc_manual categories Mechanical symbols 
+\i (00:00:19) FORM plc_manual categories Package symbols 
+\i (00:00:24) FORM plc_manual alpha_filter SW* 
+\i (00:00:26) FORM plc_manual tree 'MULTISEL YES' SW4 'Package symbols' 
+\w (00:00:26) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:26) FORM plc_manual tree  SW4 'Package symbols' 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) pick grid 139.412 316.503
+\t (00:00:27) last pick:  139.700 317.500
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 142.426 321.024
+\i (00:00:27) trapsize 1884
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 142.426 321.024
+\i (00:00:27) trapsize 942
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 143.369 318.198
+\i (00:00:28) trapsize 471
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 143.369 318.198
+\i (00:00:28) trapsize 235
+\i (00:00:50) exit 
+\e (00:00:50) Do you want to save the changes you made to unnamed.brd?
+\i (00:00:52) fillin no 
+\t (00:00:52)     Journal end - Fri Aug 02 11:42:07 2019

@@ -1,0 +1,25 @@
+Reading Layer Conversion File 
+Reading DXF file...
+NOTE: Replacing illegal character * with X in *Model_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space.
+NOTE: Replacing illegal character * with X in *Paper_Space0.
+NOTE: Replacing illegal character * with X in *D1.
+NOTE: Replacing illegal character * with X in *D2.
+NOTE: Replacing illegal character * with X in *D1.
+NOTE: Replacing illegal character * with X in *D2.
+done.
+NOTE: Ignoring unsupported element POINT on line 1962.
+NOTE: Ignoring unsupported element POINT on line 1982.
+NOTE: Ignoring unsupported element POINT on line 2002.
+NOTE: Ignoring unsupported element POINT on line 2282.
+NOTE: Ignoring unsupported element POINT on line 2302.
+NOTE: Ignoring unsupported element POINT on line 2322.
+Layer conversion file: C:/Users/user/Desktop/ArduinoUno_l.cnv
+DXF file: C:/Users/user/Desktop/ArduinoUno.dxf
+BRD file: #Taaaaab07980.tmp
+Update existing design?: NO
+Use default text?: NO
+DXF units: MILLIMETERS
+Design units: MILLIMETERS
+Design precision: 4
+dxf2a complete.

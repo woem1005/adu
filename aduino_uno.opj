@@ -32,9 +32,9 @@
     (DRC_Preserved_Waived "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
-    (DRC_Report_File "C:\USERS\USER\DESKTOP\WORK\ADUINO_UNO\ADUINO_UNO.DRC")
-    (DRC_Check_Ports "FALSE")
-    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_File "C:\Users\user\Desktop\aduino_uno\1.DRC")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
     (DRC_SDT_Compatibility "FALSE")
     (DRC_Report_Off-grid_Objects "FALSE")
@@ -70,14 +70,67 @@
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
     (Open_BOM_in_Excel "FALSE")
-    (BOM_View_Output "TRUE"))
+    (BOM_View_Output "TRUE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" "allegro\ADUINO_UNO.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCAD")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    ("Allegro Netlist Input Board File" "allegro\ADUINO_UNO.brd"))
   (Folder "Outputs"
     (File ".\aduino_uno.drc"
       (Type "Report"))
     (File ".\aduino_uno.bom"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\1.drc"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (VCC_ARROW
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LMV358/SO
+      (FullPartName "LMV358/SO.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
+      (DeviceIndex "1"))
+    (LMV321/SO
+      (FullPartName "LMV321/SO.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (NDC7003P/SOT
+      (FullPartName "NDC7003P/SOT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (NDC7003P/FAI
+      (FullPartName "NDC7003P/FAI.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\FAIRCHILD.OLB")
+      (DeviceIndex "0"))
     (VCC
       (LibraryName
          "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -91,10 +144,6 @@
       (FullPartName "CRYSTAL.Normal")
       (LibraryName
          "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName
-         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (R2
       (FullPartName "R2.Normal")
@@ -150,10 +199,6 @@
       (LibraryName
          "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\MISC3.OLB")
       (DeviceIndex "0"))
-    (VCC_ARROW
-      (LibraryName
-         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (FUSE
       (FullPartName "FUSE.Normal")
       (LibraryName
@@ -178,39 +223,15 @@
       (FullPartName "CON10.Normal")
       (LibraryName
          "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    ("SW PUSHBUTTON"
-      (FullPartName "SW PUSHBUTTON.Normal")
-      (LibraryName
-         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (R5REXX/TO
-      (FullPartName "R5REXX/TO.Normal")
-      (LibraryName
-         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
-      (DeviceIndex "0"))
-    (CON4A
-      (FullPartName "CON4A.Normal")
-      (LibraryName
-         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (BEAD
-      (FullPartName "BEAD.Normal")
-      (LibraryName
-         "C:\USERS\USER\DESKTOP\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory "C:\Users\user\Downloads\ATMEGA16U2-MUR")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\Users\user\Desktop\work\aduino_uno\aduino_uno.dsn")
-      (Path "Design Resources"
-         "C:\Users\user\Desktop\work\aduino_uno\aduino_uno.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\aduino_uno.dsn")
+      (Path "Design Resources" ".\aduino_uno.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"
-         "C:\Users\user\Desktop\work\aduino_uno\aduino_uno.dsn" "SCHEMATIC1"
-         "PAGE1"))
+      (Select "Design Resources" ".\aduino_uno.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -220,11 +241,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 -57 1731 -23 796")
-        (Scroll "0 598")
-        (Zoom "126")
+        (Placement "44 0 1 -1 -1 -8 -30 150 1790 150 614")
+        (Scroll "-35 307")
+        (Zoom "92")
         (Occurrence "/"))
-      (Path "C:\USERS\USER\DESKTOP\WORK\ADUINO_UNO\ADUINO_UNO.DSN")
+      (Path "C:\USERS\USER\DESKTOP\ADUINO_UNO\ADUINO_UNO.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
-  (MPSSessionName "user"))
+  (MPSSessionName "user")
+  (ISPCBBASICLICENSE "false"))

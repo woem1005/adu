@@ -1,0 +1,69 @@
+\t (00:00:01) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Fri Aug 02 15:18:30 2019
+\t (00:00:01)         Host=USER-PC User=user Pid=7200 CPUs=4
+\t (00:00:01) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession user C:\USERS\USER\DESKTOP\ADUINO_UNO\allegro\ADUINO_UNO.brd
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: C:/USERS/USER/DESKTOP/ADUINO_UNO/allegro/ADUINO_UNO.brd
+\i (00:00:04) trapsize 3319
+\i (00:00:04) trapsize 3395
+\i (00:00:04) trapsize 3468
+\i (00:00:04) trapsize 3390
+\i (00:00:04) generaledit 
+\i (00:00:05) zoom out 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom out 71.4780 87.3199
+\i (00:00:05) trapsize 6779
+\i (00:00:09) done 
+\i (00:00:09) place manual 
+\i (00:00:09) FORM plc_manual placement_list 
+\i (00:00:09) FORM plc_manual categories Components by refdes 
+\i (00:00:09) trapsize 6779
+\i (00:00:13) setwindow form.plc_manual
+\i (00:00:13) FORM plc_manual categories Components by net group 
+\i (00:00:13) FORM plc_manual tree  'Components by net group' 
+\i (00:00:14) FORM plc_manual categories Package symbols 
+\i (00:00:15) FORM plc_manual advanced_settings  
+\i (00:00:15) FORM plc_manual library YES 
+\i (00:00:18) FORM plc_manual library NO 
+\i (00:00:18) FORM plc_manual library YES 
+\i (00:00:20) FORM plc_manual placement_list  
+\i (00:00:22) FORM plc_manual advanced_settings  
+\i (00:00:22) FORM plc_manual placement_list  
+\i (00:00:25) FORM plc_manual alpha_filter con* 
+\i (00:00:27) FORM plc_manual tree 'MULTISEL YES' CON61 'Package symbols' 
+\i (00:00:27) FORM plc_manual tree  CON61 'Package symbols' 
+\i (00:00:29) FORM plc_manual tree 'MULTISEL YES' CON41 'Package symbols' 
+\i (00:00:29) FORM plc_manual tree  CON41 'Package symbols' 
+\i (00:00:30) FORM plc_manual tree 'MULTISEL NO' CON61 'Package symbols' 
+\i (00:00:30) FORM plc_manual tree  CON61 'Package symbols' 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) pick grid 90.4625 27.3927
+\t (00:00:31) last pick:  90.0000 27.0000
+\i (00:00:32) setwindow form.plc_manual
+\i (00:00:32) FORM plc_manual tree 'MULTISEL YES' CON61 'Package symbols' 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) pick grid 79.4804 30.6467
+\t (00:00:35) last pick:  79.0000 31.0000
+\i (00:00:43) setwindow form.plc_manual
+\i (00:00:43) FORM plc_manual tree 'MULTISEL YES' CONN6 'Package symbols' 
+\w (00:00:43) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:43) FORM plc_manual tree  CONN6 'Package symbols' 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) pick grid 58.4653 25.4946
+\t (00:00:45) last pick:  58.0000 25.0000
+\i (00:00:45) setwindow form.plc_manual
+\i (00:00:45) FORM plc_manual tree 'MULTISEL YES' CONN9 'Package symbols' 
+\i (00:00:45) FORM plc_manual tree  CONN9 'Package symbols' 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) pick grid -24.1039 47.5944
+\t (00:00:46) last pick:  -24.0000 48.0000
+\i (00:00:50) setwindow form.plc_manual
+\i (00:00:50) FORM plc_manual done  
+\i (00:00:51) setwindow pcb
+\i (00:00:51) generaledit 
+\i (00:00:51) exit 
+\e (00:00:51) Do you want to save the changes you made to ADUINO_UNO.brd?
+\i (00:00:52) fillin no 
+\t (00:00:52)     Journal end - Fri Aug 02 15:19:21 2019

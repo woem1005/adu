@@ -1,0 +1,27 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Aug 02 15:31:29 2019
+\t (00:00:00)         Host=USER-PC User=user Pid=7136 CPUs=4
+\t (00:00:00) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\user\Desktop\aduino_uno\11111111111111111111111111\con4_1.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: C:/Users/user/Desktop/aduino_uno/11111111111111111111111111/con4_1.dra
+\i (00:00:02) trapsize 76
+\i (00:00:02) trapsize 79
+\i (00:00:03) trapsize 79
+\i (00:00:03) generaledit 
+\i (00:00:16) new 
+\i (00:00:31) newdrawfillin "con4_1.brd" "Board"
+\t (00:00:31) Starting new design...
+\i (00:00:32) trapsize 76
+\i (00:00:32) trapsize 79
+\i (00:00:32) trapsize 79
+\i (00:00:32) trapsize 79
+\i (00:00:32) trapsize 76
+\i (00:00:32) generaledit 
+\i (00:00:37) drag_start grid -2.656 2.662
+\i (00:00:37) drag_stop 5.946 -1.434
+\i (00:00:38) exit 
+\e (00:00:39) Do you want to save the changes you made to con4_1.brd?
+\i (00:00:40) fillin no 
+\t (00:00:40)     Journal end - Fri Aug 02 15:32:09 2019

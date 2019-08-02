@@ -1,0 +1,207 @@
+
+(EDIF
+  (rename SMD_45_RES_45_VARISTOR_45_5V_45_28V0603 "SMD-RES-VARISTOR-5V-28V0603")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2018 06 13 11 25 00)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename SMD_45_RES_45_VARISTOR_45_5V_45_28V0603 "SMD-RES-VARISTOR-5V-28V0603")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename RES_45_VARISTOR_45_2P "RES-VARISTOR-2P")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "R")
+          (property (rename VALUE "Value") (string "RES-VARISTOR-2P"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -20000 -7000) (pt 20000 15000)))
+            (portImplementation
+              (name &1)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin (pt -16062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -20000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -20000 0)
+                    (pt -10000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name &2)
+              (keywordDisplay DESIGNATOR
+                (display PINNUMBER
+                  (justify CENTERLEFT)
+                  (orientation R0)
+                  (origin (pt 16062 0))
+                )
+              )
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 20000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 20000 0)
+                    (pt 10000 0)
+                  )
+                )
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 5000) (pt -10000 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 -5000) (pt 10000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 5000) (pt -10000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 0 -7000) (pt 10499 15000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 -5000) (pt 10000 -5000)))
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -20000 8000))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt 0 -12011))
+              )
+            )
+            (figure PARTBODY
+              (polygon
+                (pointList
+                  (pt 10000 10000)
+                  (pt 10499 15000)
+                  (pt 7000 11500)
+                )
+              )
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "R0603"))
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "0603 Bourns"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "Bourns"))
+            )
+            (property
+              (rename Price "Price")
+              (string
+              (stringDisplay "0.14 USD"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "CG0603MLC-05E"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+Varistor, ESD Clamp Protector, 5 VDC, 20 Vclamp, IEC 61000-4-2 Level 4, 0603 SMD
+"))
+            )
+            (property
+              (rename Availability "Availability")
+              (string
+              (stringDisplay "Good"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,58 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Aug 02 15:19:29 2019
+\t (00:00:00)         Host=USER-PC User=user Pid=6352 CPUs=4
+\t (00:00:00) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: C:/USERS/USER/DESKTOP/ADUINO_UNO/allegro/ADUINO_UNO.brd
+\i (00:00:03) trapsize 3319
+\i (00:00:03) trapsize 3395
+\i (00:00:03) trapsize 3468
+\i (00:00:03) trapsize 3390
+\i (00:00:04) generaledit 
+\i (00:00:04) pick grid -2.2106 97.1495
+\t (00:00:04) last pick:  -2.0000 97.0000
+\i (00:00:07) pick grid 51.4797 101.0136
+\t (00:00:07) last pick:  51.0000 101.0000
+\i (00:00:07) roam start
+\i (00:00:07) roam x 80
+\i (00:00:07) roam x 112
+\i (00:00:07) roam x 112
+\i (00:00:07) roam x 80
+\i (00:00:07) roam x 32
+\i (00:00:07) roam x 64
+\i (00:00:07) roam x 48
+\i (00:00:08) roam end
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 84.0902 74.2362
+\i (00:00:11) trapsize 6779
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 84.0903 74.2363
+\t (00:00:11) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:00:11) trapsize 13274
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 132.9204 46.9027
+\i (00:00:11) trapsize 6637
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 128.9911 49.5576
+\i (00:00:12) trapsize 3319
+\i (00:00:12) roam start
+\i (00:00:12) roam x -80
+\i (00:00:12) roam y -80
+\i (00:00:12) roam x -176
+\i (00:00:12) roam y -128
+\i (00:00:12) roam x -96
+\i (00:00:12) roam y -64
+\i (00:00:12) roam x -80
+\i (00:00:12) roam y -32
+\i (00:00:13) roam x -48
+\i (00:00:13) roam y -16
+\i (00:00:13) roam end
+\i (00:00:30) new 
+\i (00:01:00) newdrawfillin "con6_1.dra" "Package Symbol (Wizard)"
+\t (00:01:00)     Journal end - Fri Aug 02 15:20:29 2019

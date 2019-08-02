@@ -1,0 +1,109 @@
+\t (00:09:34) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:09:34)     Journal start - Fri Aug 02 11:39:42 2019
+\t (00:09:34)         Host=USER-PC User=user Pid=7184 CPUs=4
+\t (00:09:34) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession user C:\USERS\USER\DESKTOP\ADUINO_UNO\allegro\ADUINO_UNO.brd
+\t (00:09:34) 
+\t (00:09:45) Starting new design...
+\i (00:09:47) trapsize 255
+\i (00:09:48) trapsize 266
+\i (00:09:48) trapsize 266
+\i (00:09:48) trapsize 266
+\i (00:09:48) trapsize 255
+\i (00:09:48) generaledit 
+\i (00:09:49) pick grid 1.687 -4.327
+\t (00:09:49) last pick:  2.540 -5.080
+\i (00:09:56) done 
+\i (00:09:56) place manual 
+\i (00:09:57) FORM plc_manual placement_list 
+\i (00:09:57) FORM plc_manual categories Components by refdes 
+\i (00:09:57) setwindow form.plc_manual
+\i (00:09:57) FORM plc_manual categories Components by refdes 
+\i (00:09:57) setwindow pcb
+\i (00:09:57) trapsize 255
+\i (00:09:57) setwindow form.plc_manual
+\i (00:09:57) FORM plc_manual advanced_settings  
+\i (00:09:58) FORM plc_manual library YES 
+\i (00:09:59) FORM plc_manual placement_list  
+\i (00:10:01) FORM plc_manual categories Package symbols 
+\i (00:10:05) FORM plc_manual alpha_filter SW* 
+\i (00:10:13) FORM plc_manual advanced_settings  
+\i (00:10:14) FORM plc_manual placement_list  
+\i (00:10:19) FORM plc_manual tree  'Package symbols' 
+\i (00:10:24) FORM plc_manual cancel  
+\i (00:10:24) setwindow pcb
+\i (00:10:24) generaledit 
+\i (00:10:28) done 
+\i (00:10:28) place manual 
+\i (00:10:28) FORM plc_manual placement_list 
+\i (00:10:28) FORM plc_manual categories Components by refdes 
+\i (00:10:28) setwindow form.plc_manual
+\i (00:10:28) FORM plc_manual categories Components by refdes 
+\i (00:10:28) setwindow pcb
+\i (00:10:28) trapsize 255
+\i (00:10:29) setwindow form.plc_manual
+\i (00:10:29) FORM plc_manual advanced_settings  
+\i (00:10:30) FORM plc_manual library YES 
+\i (00:10:31) FORM plc_manual placement_list  
+\i (00:10:33) FORM plc_manual categories Package symbols 
+\i (00:10:36) FORM plc_manual alpha_filter SW* 
+\i (00:10:39) FORM plc_manual tree  SWITCH 'Package symbols' 
+\i (00:10:39) FORM plc_manual tree 'MULTISEL YES' SWITCH 'Package symbols' 
+\w (00:10:39) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:10:39) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:10:39) Cannot load symbol 'SWITCH'
+\i (00:10:41) setwindow pcb
+\i (00:10:41) pick grid -3.209 0.926
+\t (00:10:41) last pick:  -2.540 0.000
+\i (00:10:42) setwindow form.plc_manual
+\i (00:10:42) FORM plc_manual tree 'MULTISEL YES' SWITCH 'Package symbols' 
+\w (00:10:42) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:10:42) ERROR(SPMHA1-151): Symbol extents are greater than the drawing extents ... increase the drawing extents.
+\e (00:10:42) Cannot load symbol 'SWITCH'
+\i (00:10:42) FORM plc_manual tree 'MULTISEL YES' 'Package symbols' 
+\i (00:10:42) FORM plc_manual tree  'Package symbols' 
+\i (00:10:43) setwindow pcb
+\i (00:10:43) pick grid -4.790 -0.451
+\t (00:10:43) last pick:  -5.080 0.000
+\w (00:10:43) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:43) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:43) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:43) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:10:44) pick grid -6.575 -2.185
+\t (00:10:44) last pick:  -7.620 -2.540
+\e (00:10:44) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\i (00:10:45) pick grid -1.883 -7.591
+\t (00:10:45) last pick:  -2.540 -7.620
+\i (00:10:45) zoom in 1 
+\i (00:10:45) setwindow pcb
+\i (00:10:45) zoom in -3.362 -1.777
+\i (00:10:45) trapsize 128
+\i (00:10:45) zoom in 1 
+\i (00:10:45) setwindow pcb
+\i (00:10:45) zoom in -3.363 1.838
+\i (00:10:45) trapsize 64
+\i (00:10:46) zoom in 1 
+\i (00:10:46) setwindow pcb
+\i (00:10:46) zoom in -1.463 1.558
+\i (00:10:46) trapsize 32
+\i (00:10:46) zoom in 1 
+\i (00:10:46) setwindow pcb
+\i (00:10:46) zoom in -1.501 1.558
+\i (00:10:46) trapsize 16
+\i (00:10:46) pick grid -2.007 1.548
+\t (00:10:46) last pick:  -2.540 2.540
+\i (00:10:46) pick grid -2.068 1.548
+\t (00:10:46) last pick:  -2.540 2.540
+\i (00:10:47) pick grid -1.982 1.478
+\t (00:10:47) last pick:  -2.540 2.540
+\i (00:10:47) pick grid -1.915 1.414
+\t (00:10:47) last pick:  -2.540 2.540
+\i (00:10:47) pick grid -1.822 1.446
+\t (00:10:47) last pick:  -2.540 2.540
+\i (00:10:48) setwindow form.plc_manual
+\i (00:10:48) FORM plc_manual cancel  
+\i (00:10:48) setwindow pcb
+\i (00:10:48) generaledit 
+\i (00:10:49) exit 
+\e (00:10:49) Do you want to save the changes you made to 2222.brd?
+\i (00:10:50) fillin no 
+\t (00:10:50)     Journal end - Fri Aug 02 11:40:58 2019
